@@ -1,14 +1,15 @@
 # Satore: First-order logic saturation with atom rewriting
 
-This is a dirty clone of the [original subrepository](https://github.com/deepmind/deepmind-research?path=satore).
-
-
 Satore is a first-order logic resolution based theorem prover in CNF without
 equality, but with atom rewrite rules. New rewrite rules can be
 discovered during the proof search, potentially reducing exponentially the
 search space.
 
 Satore stands for Saturation with Atom Rewriting.
+
+Note: This is a dirty[^1] clone of the [original subrepository](https://github.com/deepmind/deepmind-research?path=satore). The commits pushed here will _not_ be pushed upstream.
+
+[^1]: 'dirty' because the (small) commit history is lost due to the original repository being a subpath instead of a standalone repository.
 
 ## Installation
 
