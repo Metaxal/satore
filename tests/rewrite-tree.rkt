@@ -202,7 +202,7 @@
     (define cl (Clause-clause C))
     (check-not-false (for/or ([C2 (in-list Crules2)])
                        (Clause-equivalence? C C2))
-                     cl)))
+                     (format "~a" cl))))
 
 ;; Tautology reduction
 (let ()
