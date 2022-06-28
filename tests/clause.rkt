@@ -79,9 +79,9 @@
     (define cl1 (sort-clause (Varify A)))
     (define cl2 (sort-clause (fresh (Varify B))))
     (check-false (clause-subsumes cl1 cl2)
-                 (list (list 'A= A) (list 'B= B)))
+                 (format "~a" (list (list 'A= A) (list 'B= B))))
     (check-false (clause-subsumes cl2 cl1)
-                 (list A B)))
+                 (format "~a" (list A B))))
 
   (let* ()
     (define cl
